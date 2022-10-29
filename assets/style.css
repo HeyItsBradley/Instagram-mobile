@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Bebas Neue", cursive;
+}
+/* sets background to white */
+body {
+  background-color: white;
+}
+/* sets the font of the username */
+div header {
+  font-size: 3vw;
+}
+/* makes the header/nav a flex box and pushes them apart */
+div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 4vw;
+  margin-right: 4vw;
+  margin-bottom: 5vw;
+}
+/* sets the size of the nav bar icons*/
+div nav img {
+  width: 5vw;
+  height: auto;
+}
+/* puts empty space at the top of the notch */
+#emptySpace {
+  margin-top: 4vw;
+}
+/* makes pfp relative */
+.pfpContainer {
+  display: flex;
+  position: relative;
+  margin: 0;
+}
+.PFP {
+  width: 17vw;
+  border-radius: 100%;
+  right: 10vw;
+}
+.pfpPlus {
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  font-size: 7vw;
+  color: white;
+  background-color: rgb(36, 90, 240);
+  width: 4vw;
+  height: 4vw;
+  text-align: center;
+  border-radius: 100%;
+  left: 8vw;
+  top: 12vw;
+  border: solid rgb(255, 255, 255) 1vw;
+}
+
+.pfpFollwerSection ul {
+  display: flex;
+  font-size: 4vw;
+  list-style: none;
+}
+
+.statsAndNumbers {
+  display: flex;
+  flex-direction: column;
+}
+
+.posts {
+  margin-right: 5vw;
+}
+.followers {
+  margin-right: 5vw;
+}
+.following {
+  margin-right: 5vw;
+}
+
+.postNumber {
+  margin-right: 10vw;
+  margin-left: -2vw;
+}
+.followersNumber {
+  margin-right: 10vw;
+  margin-left: 2;
+}
+.followingNumber {
+  margin-right: 5vw;
+  margin-left: 5vw;
+}
+
+.realName {
+  margin-left: 4vw;
+  font-size: 4vw;
+  margin-bottom: 3vw;
+}
+
+.editBar {
+  display: flex;
+}
+
+.editBar p {
+  flex-grow: 10;
+  background-color: lightgray;
+  border-radius: 1vw;
+  text-align: center;
+  font-size: 4vw;
+}
+
+.editBar img {
+  height: 3.1vw;
+  border: solid lightgray 1vw;
+  border-radius: 1vw;
+  margin-left: 1vw;
+  background-color: lightgray;
+}
+
+.postAndTags img {
+  margin-right: 20vw;
+  margin-left: 20vw;
+  height: 6vw;
+}
+.postAndTags {
+  padding-bottom: 2vw;
+  border-bottom: 0.1vw solid lightgray;
+}
+
+.photos{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.photos img{
+    max-width: 33vw;
+}
