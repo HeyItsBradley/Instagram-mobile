@@ -27,7 +27,7 @@ div nav img {
 }
 /* puts empty space at the top of the notch */
 #emptySpace {
-  margin-top: 4vw;
+  margin-top: 7vw;
 }
 /* makes pfp relative */
 .pfpContainer {
@@ -126,11 +126,11 @@ div nav img {
   border-bottom: 0.1vw solid lightgray;
 }
 
-.photos{
-    display: flex;
-    flex-wrap: wrap;
+.photos {
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.photos img{
-    max-width: 33vw;
+.photos img {
+  max-width: 33vw;
 }
